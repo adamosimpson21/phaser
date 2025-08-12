@@ -300,7 +300,6 @@ var GamepadPlugin = new Class({
 
         for (var i = 0; i < this.gamepads.length; i++)
         {
-            console.log("you are here in phaser stop listeners22", this.gamepads[i])
             if(this.gamepads[i]){
                 this.gamepads[i].removeAllListeners();
             }
